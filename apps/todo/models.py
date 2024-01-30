@@ -6,7 +6,7 @@ class Task(models.Model):
         primary_key=True
     )
     title = models.CharField(
-        max_length = 255,
+        max_length = 100,
         verbose_name = 'Название'
     )
     description = models.TextField(
